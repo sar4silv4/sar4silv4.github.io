@@ -1,2 +1,2 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<h1> seja bem vindo(a) </h1>
+<p>Visite o site <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> para ler a documentação </p>
