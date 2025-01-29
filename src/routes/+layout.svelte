@@ -1,16 +1,12 @@
-<script>
-	export let title = 'Y';
-</script>
-
 <link
 	rel="stylesheet"
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
 />
 
 <div class="d-flex flex-column min-vh-100">
-	<header class="bg-primary text-white py-3">
+	<header class="bg-dark text-white text-center py-3 ">
 		<div class="container text-center">
-			<h1>{title}</h1>
+			<h1> Conversation </h1>
 		</div>
 	</header>
 
@@ -29,10 +25,10 @@
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link" href="/mensagens">Mensagens</a>
+						<a class="nav-link" href="/">Mensagens</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="/calls">Chamadas perdidas</a>
+						<a class="nav-link" href="/calls">Chamadas</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="/status">Status</a>
@@ -47,6 +43,8 @@
 	</main>
 
 	<footer class="bg-dark text-white text-center py-3 mt-auto">
-		<p>&copy; {new Date().getFullYear()} y.com Todos os direitos reservados.</p>
+		<p>&copy; {new Date().getFullYear()} conversation.com Todos os direitos reservados.</p>
 	</footer>
 </div>
+
+
